@@ -552,7 +552,7 @@ export default function Home() {
                 <div className="flex items-center gap-1 mb-4">
                   {'⭐⭐⭐⭐⭐'.split('').map((s, j) => <span key={j} className="text-sm">{s}</span>)}
                 </div>
-                <p className="text-gray-600 text-sm leading-relaxed mb-5">"{t.text}"</p>
+                <p className="text-gray-600 text-sm leading-relaxed mb-5">&quot;{t.text}&quot;</p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-400 to-teal-400 flex items-center justify-center text-white text-sm font-bold">
                     {t.avatar}
@@ -582,7 +582,7 @@ export default function Home() {
             <h2 className="font-display text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Before & <span className="gradient-text">After</span>
             </h2>
-            <p className="text-gray-500 max-w-xl mx-auto">See the real transformation our treatments deliver to our patients' smiles.</p>
+            <p className="text-gray-500 max-w-xl mx-auto"> See the real transformation our treatments deliver to our patients&#39; smiles.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

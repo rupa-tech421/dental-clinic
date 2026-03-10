@@ -30,7 +30,7 @@ export default function Contact() {
             <h1 className="font-display text-5xl font-bold text-white mb-4">
               Contact <span style={{ background: 'linear-gradient(135deg, #38bdf8, #2dd4bf)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>SmileCare</span>
             </h1>
-            <p className="text-white/70 text-lg">We're here to help. Reach out via phone, email, or WhatsApp.</p>
+            <p className="text-white/70 text-lg">We are here to help. Reach out via phone, email, or WhatsApp.</p>
           </motion.div>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function Contact() {
                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5"><polyline points="20 6 9 17 4 12"/></svg>
                   </div>
                   <h3 className="font-display text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                  <p className="text-gray-500 mb-6">Thank you for reaching out. We'll get back to you within 24 hours.</p>
+                  <p className="text-gray-500 mb-6">Thank you for reaching out. We will get back to you within 24 hours.</p>
                   <button onClick={() => { setSubmitted(false); setForm({ name:'',email:'',phone:'',subject:'',message:'' }) }}
                     className="shimmer-btn text-white px-8 py-3 rounded-xl font-semibold">
                     Send Another Message
